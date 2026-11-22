@@ -6,7 +6,7 @@ Practising SQL (MySQL 8.0) on an e-commerce sales dataset.
 ## Queries
 - `top_customers_by_region.sql`: finds the top 3 customers by
   order count in each region, using GROUP BY, window functions
-  (RANK, PARTITION BY) and a CTE.
+  (ROW_NUMBER, PARTITION BY) and a CTE.
 
 ## What I learned
 - Window functions rank rows without collapsing them, unlike GROUP BY.
