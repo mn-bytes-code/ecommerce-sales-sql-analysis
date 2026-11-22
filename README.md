@@ -1,4 +1,3 @@
-# ecommerce-sales-sql-analysis
 # E-commerce Sales SQL Analysis
 
 Practising SQL (MySQL 8.0) on an e-commerce sales dataset.
@@ -11,4 +10,5 @@ Practising SQL (MySQL 8.0) on an e-commerce sales dataset.
 ## What I learned
 - Window functions rank rows without collapsing them, unlike GROUP BY.
 - RANK() skips numbers after ties, while DENSE_RANK() does not.
-- ROW_NUMBER() gives you only 3 asked rows from each region while RANK() performed on the same condition still shows multiple tied rows from each regions.
+- ROW_NUMBER() returns exactly 3 rows per region for the same condition,
+  while RANK() can return more when customers tie.
